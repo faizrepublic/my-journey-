@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faiz Gilang P - Desainer Muda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body {
+            background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
+            font-family: 'Orbitron', sans-serif;
+            color: white;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 3rem 1rem;
+            background: radial-gradient(circle at center, #1e1e1e 0%, #111 100%);
+            animation: fadeIn 2s ease-out;
+        }
+        header h1 {
+            font-size: 3rem;
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+            animation: slideUp 1.5s ease-in-out;
+        }
+        h2 {
+            color: #ff00cc;
+            margin-top: 2rem;
+        }
+        p {
+            line-height: 1.6;
+            margin: 1rem 0;
+        }
+        .school-list {
+            background: #222;
+            padding: 1rem;
+            border-radius: 10px;
+        }
+        .contact, .social {
+            margin-top: 2rem;
+        }
+        a {
+            color: #00ffff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #ff00cc;
+        }
+        .social img {
+            width: 40px;
+            height: 40px;
+            margin: 0.5rem;
+            transition: transform 0.3s ease-in-out;
+        }
+        .social img:hover {
+            transform: scale(1.2);
+        }
+        button {
+            background-color: #00ffff;
+            color: #000;
+            padding: 0.7rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+        button:hover {
+            background-color: #ff00cc;
+            transform: scale(1.05);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Halo! Saya Faiz Gilang P</h1>
+    </header>
+    <section>
+        <p>Saya seorang pelajar sekaligus desainer muda berbakat yang lahir dan besar di Gatak, Trangsan, Sukoharjo pada tahun 2011. Sejak kecil, saya telah menunjukkan ketertarikan yang mendalam terhadap dunia seni visual dan kreativitas digital.</p>
+        <p>Kecintaan saya pada Desain Komunikasi Visual (DKV) tumbuh seiring dengan perkembangan teknologi, memungkinkan saya untuk mengekspresikan ide-ide kreatif melalui medium digital.</p>
+        <p>Saya percaya bahwa setiap gambar, warna, dan tipografi memiliki bahasa tersendiri yang mampu menyampaikan pesan secara efektif. Kemampuan saya dalam mengolah elemen-elemen visual ini terus berkembang melalui berbagai proyek pribadi maupun kolaborasi dengan teman-teman.</p>
+        <p>Saya tidak hanya melihat desain sebagai hobi, tetapi juga sebagai passion yang ingin saya tekuni secara profesional di masa depan.</p>
+        <p>Dunia desain grafis, branding, ilustrasi digital, dan pembuatan konten visual untuk media sosial adalah bidang yang selalu membuat saya antusias. Saya memiliki semangat belajar yang tinggi, mampu bekerja baik secara individu maupun dalam tim, dan selalu mencari cara untuk meningkatkan kreativitas serta keterampilan teknis saya. Visi saya adalah menjadi desainer profesional yang dapat memberikan solusi visual yang bermakna dan berdampak.</p>
+
+        <h2>Riwayat Pendidikan</h2>
+        <div class="school-list">
+            <p><strong>TK Mambaul Ulum:</strong> Sebuah taman kanak-kanak yang menanamkan nilai-nilai dasar dan kreativitas sejak usia dini.</p>
+            <p><strong>SD MIM Trangsan:</strong> Sekolah dasar berbasis Islam yang mengajarkan ilmu pengetahuan umum dan agama secara seimbang.</p>
+            <p><strong>SMP Negeri 2 Gatak:</strong> Sekolah menengah pertama negeri dengan lingkungan belajar yang kondusif, mendukung potensi siswa di berbagai bidang akademik dan non-akademik.</p>
+        </div>
+
+        <div class="contact">
+            <h2>Kontak Saya</h2>
+            <p>Email: faizgilang@example.com</p>
+            <p>WhatsApp: +62 812-3456-7890</p>
+        </div>
+
+        <div class="social">
+            <h2>Temui Saya di Sosial Media</h2>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="YouTube"></a>
+        </div>
+
+        <div style="margin-top:3rem; text-align:center;">
+            <button onclick="alert('Terima kasih telah menghubungi saya!')">Kirim Feedback</button>
+        </div>
+    </section>
+</body>
+</html>
